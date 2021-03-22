@@ -1,0 +1,135 @@
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+#a {
+  position: relative;
+  border: 3px solid #ff6570;
+  top: 20px;
+  left: 20px;
+}
+
+#b {
+  position: relative;
+  top: 180px;
+  left: 100px;
+  border: 3px solid #845cff;
+}
+
+#c {
+  position: relative;
+  top: 350px;
+  left: 200px;
+  border: 3px solid #8bffad;
+}
+
+#aa {
+  position: absolute;
+  top: 500px;
+  left: 35px;
+  background: #ff6570
+}
+
+#ab {
+  position: absolute;
+  top: 545px;
+  left: 85px;
+  background: #845cff
+}
+
+#ac {
+  position: absolute;
+  top: 585px;
+  left: 135px;
+  background: #8bffad
+}
+
+#ba {
+  position: absolute;
+  top: 720px;
+  left: 35px;
+  background: #ff6570
+}
+
+#bb {
+  position: absolute;
+  top: 795px;
+  left: 135px;
+  background: #8bffad
+}
+
+#bc {
+  position: absolute;
+  top: 755px;
+  left: 85px;
+  background: #845cff
+}
+.box-x {
+  display: inline-block;
+  width: 650px;
+  height: 400px;
+  color: #8bffad;
+}
+
+#backbox {
+  position: absolute;
+  top: 950px;
+  left: 85px;
+  background: #8bffad;
+}
+
+.whitebox {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  color: white;
+}
+
+#wba {
+  position: absolute;
+  top: 980px;
+  left: 115px;
+  background: white;
+}
+
+
+#wbb {
+  position: absolute;
+  top: 1180px;
+  left: 580px;
+  background: white;
+}
+
+.textt {
+  width: 790px;
+  height: 360px;
+  overflow: scroll;
+  outline: 2px solid #7CFC00;
+}
+
+#ryr {
+  position: absolute;
+  top: 1500px;
+  left: 18px;
+}
+
+.box-title {
+  display: inline-block;
+  width: 790px;
+  height: 50px;
+  outline: 2px solid #7CFC00;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+#bcd {
+  position: absolute;
+  top: 1398px;
+  left: 18px;
+  background: #ADFF2F;
+}
