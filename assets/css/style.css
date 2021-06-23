@@ -12,6 +12,11 @@ body {
 *:after {
     box-sizing: border-box;
 }
+/*Общий контейнер*/
+.main_container {
+    display: block;
+}
+
 /*Контейнер (содержит в себе лого)*/
 .container {
     width: 100%;
@@ -33,11 +38,9 @@ body {
     padding-top: 20px;
     width: 100%;
 
-    position: absolute;
     top: 20;
     left: 205;
     right: 0;
-    z-index: 1000;
 }
 
 .header_inner{
@@ -95,10 +98,38 @@ body {
     bottom: 10px;
 }
 
-.logo_image{
 
+/*Контейнер для позиционирования survival*/
+.main_surv{
+    display: flex;
+    justify-content: space-around;
 }
 
-.image_l {
+.surv{
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+}
 
+.surv_null{
+    width: 100px;
+    height: 100px;
+}
+
+.text_sur{
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.sur_button{
+    font-weight: normal;
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    font-size: 23px;
+    line-height: 27px;
+    color: white;
 }
